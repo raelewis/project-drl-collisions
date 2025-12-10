@@ -49,7 +49,8 @@ Gymnasium Robotics
   url = {http://github.com/Farama-Foundation/Gymnasium-Robotics},
   version = {1.3.1},
   year = {2024},
-}```
+}
+```
 
 MuJoCo
 ```@inproceedings{todorov2012mujoco,
@@ -60,4 +61,5 @@ MuJoCo
   year={2012},
   organization={IEEE},
   doi={10.1109/IROS.2012.6386109}
-}```
+}
+```
