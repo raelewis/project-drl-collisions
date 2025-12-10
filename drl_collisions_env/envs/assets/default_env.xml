@@ -1,0 +1,14 @@
+<mujoco model="cs686_default_env">
+  <compiler angle="radian" meshdir="./resources/meshes/" texturedir="./resources/textures" fusestatic="true" />
+  <asset>
+  </asset>
+    <worldbody>
+      <light directional="false" diffuse=".7 .7 .7" specular="0.03 0.03 0.03" pos="-1 -1.0 8.0" dir="1 1.0 -4" />
+      <geom name="ground" size="50 50 0.25" pos="0 0 0" type="plane" rgba="0.5 0.5 0.5 1"/> 
+      <camera name="cam" pos="0 -6.2 6.2" quat="0.92388 0.382683 0 0" />
+    </worldbody>
+    <actuator>
+    </actuator>
+    <sensor>
+    </sensor>
+</mujoco>
